@@ -47,6 +47,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         List<LatitudeLongitude> latlngs = new ArrayList<>();
         latlngs.add(new LatitudeLongitude(27.7052354, 85.3294158, "Softwarica college"));
         latlngs.add(new LatitudeLongitude(27.70482, 85.3293997, "Gopal dai ko chatamari"));
+        latlngs.add(new LatitudeLongitude(27.706035, 85.329862, "Current location"));
 
         CameraUpdate center, zoom;
         for (int i = 0; i < latlngs.size(); i++) {
